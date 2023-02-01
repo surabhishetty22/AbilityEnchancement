@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int n,a,b,c,d,y,z,ch;
+    cout<<"enter n value";
+    cin>>n;
+    cout<<"do u want to increase or decrease? if increase enter 1 or enter 2 to decrease";
+    cin>>ch;
+    switch(ch)
+    {
+       case 1: cout<<"how much to increase";
+              cin>>c;
+        z=n+c;
+        cout<<"volume is "<<z<<"units";
+        break;
+    
+    case 2:
+        cout<<"how much to decrease";
+        cin>>d;
+        y=n-d;
+         cout<<"volume is "<<y<<"units";
+         break;
+    
+}
+}
